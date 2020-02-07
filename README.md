@@ -3,13 +3,13 @@
 O primeiro é engadir as dependencias no arquivo pom.xml para obter o driver JBDC de conexión a unha base de datos PostgreSQL.
 
 ```xml
-    <dependencies>
-        <dependency>
-            <groupId>postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>9.1-901-1.jdbc4</version>
-        </dependency>
-    </dependencies>
+<dependencies>
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.2.9</version>
+    </dependency>
+</dependencies>
 ```
 Para conectarnos a base de datos necesitamos (como na maioría de conexións a base de datos) a **URL**, o **nome da base de datos** e as **credenciais**.
 
